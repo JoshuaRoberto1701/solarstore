@@ -1,0 +1,166 @@
+name: thesolarshop
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^5.0.0
+  flip_card: ^0.7.0
+  shared_preferences: ^2.0.8
+
+
+  
+
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  hive_flutter: ^1.1.0
+  http: ^1.1.0
+  webview_flutter: ^4.2.2
+  firebase_core: ^2.15.0
+  firebase_auth: ^4.7.2
+  cloud_firestore: ^4.8.4
+  firebase_storage: ^11.2.5
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    -  images/batt.png
+    -  images/inverter.jpg
+    -  images/mc4.png
+    -  images/panel.png
+    -  images/solarkit.png
+    -  images/Solarpic.jpg
+
+    -  images/Kodak 3kW Back-up Kit.jpg
+    -  images/Kodak 5kW Back-up Kit UP5000.jpg  
+    -  images/Kodak 5kW Back-up Kit.jpg 
+    -  images/Kodak 5kW Off Grid Kit.jpg 
+    -  images/SunSynk 5kW 48V Self Consumption Kit.jpg 
+    -  images/SunSynk 5kW Back-up Kit.jpg 
+    -  images/SunSynk 8kW Back-up Kit.jpg 
+    -  images/Victron Multiplus 48-5000-70-50 Backup Kit.jpg 
+    -  images/Victron Multiplus 48-5000-70-100 Self Consumption Kit.jpg 
+    -  images/Victron Quattro 48-8000-110-100 Self Consumption Kit.jpg 
+    -  images/Victron Quattro 48-10000-140-100-100 Backup Kit.jpg 
+
+    -  images/KODAK Solar Off-Grid Inverter 5.6kW 48V.jpg
+    -  images/KODAK Solar Off-Grid Inverter 10kW 48V.jpg
+    -  images/KODAK Solar Off-Grid Inverter MAX 7.2kW 48V Hybrid Inverter.jpg
+    -  images/KODAK Solar Off-Grid Inverter VMIII 3kW 24V Hybrid Inverter.jpg
+    -  images/Kool 1KW12V.jpg
+    -  images/Solis 3.6kW S6 Dual MPPT – Single Phase with DC PV Inverter.jpg
+    -  images/Solis 4.6kW S6 Dual MPPT – Single Phase with DC PV Inverter.jpg
+    -  images/Solis 6kW 4G 3 Phase Dual MPPT – DC PV Inverter.jpg
+    -  images/Solis 10kW 4G 3 Phase Dual MPPT – DC PV Inverter.jpg
+    -  images/Sunsynk Sun 5K Hybrid Inverter.jpg
+    -  images/Sunsynk Sun 8K Hybrid Inverter.jpg
+    -  images/Sunsynk Sun 16K Hybrid Inverter.jpg
+
+    -  images/Canadian Solar 380W Super High Power Mono PERC HiKU with MC4-EVO2.jpg
+    -  images/Canadian Solar 455W Super High Power Mono PERC HiKU with MC4-EVO2.jpg
+    -  images/Canadian Solar 535W Super High Power Mono PERC HiKU with MC4-EVO2.jpg
+    -  images/Canadian Solar 540W Super High Power Mono PERC HiKU with MC4-EVO2.jpg
+    -  images/JA Solar 365W Mono MBB Percium Half-Cell All Black Short Frame MC4.jpg
+    -  images/JA Solar 370W Mono MBB Percium Half-Cell All Black Short Frame MC4.jpg
+    -  images/JA Solar 380W Mono MBB Percium Half-Cell Black Short Frame MC4.jpg
+    -  images/JA Solar 380W Mono MBB Percium Half-Cell Silver Short Frame MC4.jpg
+    -  images/JA Solar 385W Mono MBB Percium Half-Cell Black Short Frame MC4.jpg
+    -  images/JA Solar 385W Mono MBB Percium Half-Cell Silver Short Frame MC4.jpg
+    -  images/JA Solar 455W Mono MBB Percium Half-Cell Silver Frame Short Frame MC4.jpg
+    -  images/JA Solar 540W Mono PERC Half-Cell MBB.jpg
+
+    -  images/FREEDOM Won Lite Home 5 4 LiFePO4 Solar Battery.jpg
+    -  images/FREEDOM Won Lite Home 10 8 LiFePO4 Solar Battery.jpg
+    -  images/FREEDOM Won Lite Home 20 16 LiFePO4 Solar Battery.jpg
+    -  images/Hubble Lithium AM2 5.5kWh 51V Battery.jpg
+    -  images/Pylon UP2500 2.84kWh Li-Ion Solar Battery 24V with CAN connection.jpg
+    -  images/Pylon UP5000 4.8kWh Li-Ion Solar Battery 48V.jpg
+    -  images/Pylon US2000 2.4kWh Li-Ion Solar Battery (excl. brackets).jpg
+    -  images/Pylon US3000C 3.5kWh Li-Ion Solar Battery (excl. brackets).jpg
+  
+
+
+
+    
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
